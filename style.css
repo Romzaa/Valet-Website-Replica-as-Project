@@ -1,0 +1,703 @@
+/* Main Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: auto;
+    background-color: white;
+}
+
+/* NavBar */
+
+.navbar {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 600px;
+    align-items: start;
+    background-color: #57ceccf6 !important;
+}
+
+.container-fluid {
+    max-width: 970px;
+}
+
+.nav-link {
+    color: #2e9c9ae0;
+    transition: 0.3s;
+}
+
+.navbar-brand {
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.726);
+
+}
+
+.navbar-brand:focus,
+.nav-link:focus {
+    color: rgb(240, 241, 241);
+
+}
+
+/* End- NavBar */
+
+
+/* Hero & Slides */
+
+.carousel .carousel-caption {
+    z-index: 10;
+    position: absolute;
+    bottom: 70px;
+}
+
+.carousel img {
+    display: flex;
+    position: relative;
+    height: 600px;
+}
+
+.carousel-indicators .heroInner {
+    height: 100px;
+    position: absolute;
+}
+
+.carousel-indicators .heroBtns {
+    z-index: 5;
+    position: relative;
+    bottom: 30px;
+}
+
+.heroSlide .prevBtn,
+.nextBtn {
+    z-index: 6;
+    margin-top: 110px;
+}
+
+
+.heroText {
+    position: absolute;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fcfcfc;
+    z-index: 5;
+    text-align: center;
+    top: 200px;
+}
+
+/* Services Page related */
+
+.heroText-services {
+    margin-top: 25px;
+    line-height: 6;
+}
+
+/* END Services Page related */
+
+/* Contact Page Related */
+.heroText-contact {
+    margin-top: 25px;
+    line-height: 6;
+}
+
+main .contact {
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+main .contact .contactForm {
+    width: 600px;
+    margin: 0px 50px;
+
+}
+
+main .contact .contactForm .form-control{
+    border: 2px solid #d3d3d3;
+    color: #d3d3d3;
+    font-size: 20px;
+}
+
+main .contact .contactForm .btn-success{
+    background-color: #57CECD;
+    border-color: #57CECD;
+    margin-top: 20px;
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+
+main .contact .contactForm .btn-success:hover{
+    background-color: #0d7535;
+    border-color: #0d7535;
+}
+
+main .contact .contactHelp {
+    width: 300px;
+    height: 600px;
+    margin-top: 250px;
+    line-height: 2;
+}
+
+main .contact .contactHelp .contactHelp-H4 {
+    margin-bottom: 20px;
+    font-family: Roboto;
+}
+
+main .contact .contactHelp .contactHelp-P{
+    color:#8b969c; ;
+    font-family: Roboto;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+main .contact .contactHelp .contactEmail{
+    color: #57CECD;
+    font-size: 18px;
+    font-family: Roboto;
+}
+
+
+/* END Contact Page Related */
+
+.heroText .heroH1 {
+    font-size: 36px;
+    text-shadow: 0px 1px 1px #333;
+}
+
+
+.heroText .heroP {
+    font-family: Roboto;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: aliceblue;
+    text-shadow: 0px 1px 1px #b3b0b0;
+
+}
+
+.heroText .html5Link {
+    color: #fcfcfc98;
+    font-family: Roboto;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-shadow: none;
+}
+
+.heroText .html5Link:hover {
+    color: #fcfcfc;
+}
+
+
+
+.heroText .signUp {
+    font-size: 16px;
+    font-family: Roboto;
+    padding: 4px 15px;
+    border-width: 2px;
+    width: 110px;
+    color: #fcfcfcbe;
+}
+
+.heroText .signUp:hover {
+    border-color: tomato;
+    background-color: tomato;
+}
+
+/* End Hero & Slides */
+
+/* Go Down Button */
+.divDown .goDown {
+    position: absolute;
+    border-radius: 50%;
+    bottom: -30px;
+    background-color: tomato;
+    border: tomato;
+    z-index: 6;
+}
+
+.divDown .goDown:hover {
+    background-color: rgb(248, 73, 42);
+    transform: translateY(5%)
+}
+
+/* End Go Down Button */
+
+/* Side Colors Panel */
+
+.colorsPanel {
+    position: fixed;
+    left: 0;
+    top: 100px;
+    z-index: 5;
+}
+
+.mainPanel {
+    background-color: white;
+    display: flex;
+    padding: 50px 10px 15px 10px;
+    margin: 0;
+    border-radius: 5px;
+    width: 140px;
+    justify-content: center;
+    box-shadow: 2px 2px 6px #333;
+
+}
+
+.colorsPanel .header {
+    position: absolute;
+    top: 10PX;
+    font-size: 14px;
+    font-family: monospace;
+    font-weight: 900;
+    color: #858585;
+}
+
+
+
+.mainPanel .container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.mainPanel .container .color1,
+.color3,
+.color5,
+.color7,
+.color9,
+.color11,
+.color13 {
+    height: 20px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.mainPanel .container .color2,
+.color4,
+.color6,
+.color8,
+.color10,
+.color12,
+.color14 {
+    height: 20px;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.stickGear {
+    position: relative;
+    height: fit-content;
+    padding: 0 5px;
+    font-size: 22px;
+    top: 5px;
+
+}
+
+/* END Side Colors Panel */
+
+/* Products */
+
+.productsMain {
+    background-color: #f3f8f9;
+    position: relative;
+    width: 100%;
+    min-height: 900px;
+    height: auto;
+    padding: 130px 20px;
+}
+
+.productsMain .products {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+
+.productsMain .productsH2 {
+    text-align: center;
+    justify-content: center;
+}
+
+.productsMain .products-title,
+.productLink,
+.productP {
+    color: #9c9c9c;
+    font-family: Roboto;
+    text-decoration: none;
+
+}
+
+.productsMain .card-title {
+    letter-spacing: 4px;
+
+}
+
+.productsMain .card {
+    border: none;
+    box-shadow: 1px 1px 5px #dbdbdb;
+    padding-bottom: 25px;
+    line-height: 2.4;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.productsMain .card:hover {
+    transform: translateY(-5%);
+
+}
+
+.productsMain .card:hover .card-title {
+    color: aquamarine
+}
+
+/* END Products */
+
+/* Features */
+
+.features {
+    background-color: white;
+    text-align: center;
+    padding: 150px 300px;
+
+}
+
+.featres .featuresMain .container {
+    flex-wrap: wrap;
+}
+
+.features .featuresH2 {
+    margin-bottom: 50px;
+
+}
+
+.features .featureIcon {
+    color: rgb(12, 178, 184);
+    font-size: 48px;
+}
+
+.feature1,
+.feature2,
+.feature3,
+.feature4,
+.feature5,
+.feature6 {
+    min-width: 200px;
+    height: 250px;
+    border: none;
+    line-height: 2;
+}
+
+/* END Features */
+
+/* Symbol */
+
+.symbol {
+    margin-top: 0px;
+    justify-items: center;
+    background-color: #f7f7f7;
+    width: 100%;
+    min-height: 500px;
+}
+
+.symbol .symbolCard {
+    flex-wrap: wrap;
+    border: none;
+    background-color: rgba(245, 222, 179, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1600px;
+    width: 100% !important;
+    min-height: 500px;
+    height: max-content;
+
+}
+
+.symbol .symbolCardBody {
+    flex-wrap: wrap;
+    background-color: #f7f7f7;
+    min-width: 500px;
+}
+
+.symbol img {
+    min-width: 500px;
+    flex-wrap: wrap;
+    height: 500px;
+    border: none;
+}
+
+.symbol .symbolCard .symbol-title,
+.symbol-text,
+.symbolBtn {
+    flex-wrap: wrap;
+
+    position: relative;
+    top: 50px;
+    left: 50px;
+    max-width: 600px;
+    line-height: 2;
+}
+
+.symbol .symbol-text {
+    font-size: 20px;
+    flex-wrap: wrap;
+
+}
+
+.symbol .symbolBtn {
+    flex-wrap: wrap;
+    border: 1px solid #d1d0d0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding: 5px 20px;
+    margin-top: 20px;
+}
+
+.symbol .symbolBtn:hover {
+    background-color: tomato;
+    border-color: tomato;
+    color: white;
+}
+
+/* END Symbol */
+
+/* Customer Review */
+.reviews {
+    position: relative;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.reviews .reviewsH4 {
+    margin-bottom: 80px;
+    font-size: 18px;
+    font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.reviews .reviewsInner {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews .carousel-item {
+    margin-right: 0 !important;
+
+}
+
+.reviews .reviewsText {
+    width: 830px;
+}
+
+.reviews .reviewsText .reviewsH5 {
+    color: #858585;
+    font-size: 24px;
+    line-height: 2;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+.reviews .reviewsText .reviewSign {
+    color: #858585;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.reviews .reviewSlide {
+    height: 350px;
+
+}
+
+.reviews .reviewsBtn {
+    margin-bottom: 20px;
+    width: 6px;
+    height: 6px;
+    border: 3px solid rgb(4, 167, 167);
+    border-radius: 50%;
+    background-color: rgb(4, 167, 167);
+
+}
+
+.reviews .reviewsBtn:hover {
+    background-color: white;
+}
+
+.reviews .reviewsBtn:focus {
+    background-color: white;
+
+}
+
+/* END Customer Review */
+
+/* Footer */
+
+/* Site Map */
+
+
+
+.siteMap {
+    background-color: #f3f8f9;
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Go Up Button */
+
+.siteMap .divUp {
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+    width: 100%;
+    height: 50px;
+}
+
+.siteMap .divUp .goUp {
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    background-color: tomato;
+    border: tomato;
+    z-index: 5;
+    top: -25px;
+    justify-self: center;
+}
+
+.divUp .goUp:hover {
+    background-color: rgb(248, 73, 42);
+    transform: translateY(-5%)
+}
+
+/* End Go Up Button */
+
+.siteMap .mapGridMain {
+    position: absolute;
+    justify-items: center;
+    flex-wrap: wrap;
+    top: 120px;
+    height: 200px;
+    width: 1000px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mapGridMain h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Roboto;
+    color: #b3b0b0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.gridItemss {
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.mapGrid1,
+.mapGrid2,
+.mapGrid3 {
+    flex-wrap: wrap;
+    position: relative;
+    width: 180px;
+    height: 100px;
+    text-align: left;
+}
+
+
+.siteMap .gridItem {
+    flex-wrap: wrap;
+    color: #57cecd;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.siteMap .gridItem:hover {
+    color: #2e9492;
+
+}
+
+.siteMap .gridItems3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.siteMap .gridItems3 .gridItem3 {
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 5px;
+    transition: 0.2s;
+}
+
+.siteMap .gridItems3 .gridItem3:hover {
+    color: white;
+    background-color: tomato;
+    padding: 8px;
+}
+
+/* END Site Map */
+
+
+/* Copy Rights */
+
+.copyRights {
+    position: absolute;
+    align-self: flex-end;
+    background-color: #f3f8f9;
+    text-align: center;
+    margin-bottom: 100px;
+    line-height: 1;
+}
+
+.copyRights .crightsP {
+    font-family: Roboto;
+    color: #b3b0b0;
+}
+
+.copyRights .designed {
+    font-family: Roboto;
+    color: #b3b0b0;
+}
+
+.copyRights .designed a {
+    font-family: Roboto;
+    color: #57cecd;
+}
+
+.copyRights .designed a:hover {
+    color: #2e9492;
+}
+
+
+/* END Copy Rights */
+
+/* Footer */
